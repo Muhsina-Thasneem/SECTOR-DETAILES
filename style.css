@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+*{
+    
+    box-sizing: border-box;  
+}
+
+
+
+body{
+    font-family: 'Roboto''lato' ; 
+    background-color: white(255, 255, 255);
+    overflow-x: hidden;
+    background-size: cover;
+    
+   
+}
+/* navbar */
+.nav {
+    background-color: #C91053; 
+    display: block;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+}
+.nav a{
+    color: white;
+}
+.line{
+    margin-top: -10px;
+    margin-bottom: -15px;
+    margin-left: 16rem;
+}
+.line-two{
+    margin-top: -34px;
+    margin-bottom: -7px;
+    margin-left: 41rem;
+}
+/* nav items */
+.nav-items{
+    display: flex;
+    list-style: none;
+    float: left;
+    margin-top: 0px;
+    margin-left: -1rem;
+    position: relative;
+    font-family: 'roboto';
+    font-size: 14px;
+    
+}
+.nav-items a{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.fa-phone{
+    color: white;
+   margin-top:2px;    
+}
+
+.nav-items li{
+   
+    font-size: 15px;
+    line-height: 24px;
+    position: relative;
+    display: inline-flex;
+}
+/* items two */
+.nav-items-two{
+    display: flex;
+    list-style: none;
+    float: left;
+    margin-top: -2rem;
+    position: relative;
+    margin-left: 0rem;
+    font-family: 'roboto';
+    font-size: 14px;
+}
+.nav-items-two a{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.fa-envelope-o{
+    color: white;
+    margin-top:3px;   
+}
+.nav-items-two li{
+   
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    display: inline-flex;
+}
+.nav-items-two i{
+    margin-left: 3%;
+    margin-top: 5px;
+}
+/* items three */
+.nav-items-three{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-right: 1rem;
+    margin-top: -2rem;
+    position: relative;
+    font-family: 'roboto';
+    font-size: 14px;
+}
+.nav-items-three>i{
+    color: white;
+    padding: 9px;
+    margin-top: -6px;
+}
+.nav-items-three a{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 11rem;
+}
+.nav-items-three>li{
+    margin-top: 1%;
+    margin-right: -10rem;
+}
+.img-icon{
+    height: 24px;
+    margin-right: 3rem;
+    margin-top: 2px;
+}
+/* second nav */
+.second-nav{
+    position: absolute;
+    width: 100%;
+    background-color: white; 
+}
+.logo>img{
+    width: 120px;
+    height: auto;
+    margin-top: -21px;
+    position: absolute;
+    margin-left: 2rem;
+}
+.menu-bar{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: -12rem;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul li{
+    width: 102px;
+    margin: 10px;
+    padding: 5px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.active, .menu-bar ul li :hover{
+    color: #C91053;
+    
+}
+.menu-bar .fa{
+    margin-left: 5px;
+}
+
+/* *************** */
+.sub-menu-1{ 
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: #C91053;
+    color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 4px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px double #fff;
+    background:transparent;
+    border-radius: 0;
+    text-align: left;
+    margin-left: -1rem;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: white;
+}
+/* ************ */
+.sub-menu-2{ 
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background-color: #C91053;
+    color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 4px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px double #fff;
+    background:transparent;
+    border-radius: 0;
+    text-align: left;
+    margin-left: -1rem;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover{
+    color: white;
+}
+/* *********** */
+.sub-menu-3{ 
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    background-color: #C91053;
+    color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 4px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px double #fff;
+    background:transparent;
+    border-radius: 0;
+    text-align: left;
+    margin-left: -1rem;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul li a:hover{
+    color: white;
+}
+/* *** */
+.Button{
+    margin-left: 80rem;
+    margin-top: -56px;
+    display: flex;
+
+}
+.Button>span{
+    margin-top: 1%;
+    margin-left: 22px;
+    display: flex;
+    width: 24px;
+    height: auto;
+    position: absolute;
+}
+.button-get{
+    position: absolute;
+    height: 50px;
+    width: 198.16px;
+    background: linear-gradient(270deg, #C91053 16.98%, #DC2366 94.17%);
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 46px;
+    font-family: 'lato';
+    font-weight: bold;
+    border-color: #C91053;
+}
+/*  icons */
+
+.icons{
+    display: flex;
+    margin-left: 70%;
+    margin-top: -68px;
+}
+.icons li{
+    list-style: none;
+    text-decoration: none;
+}
+.icon-two{
+    margin-top: 20px;
+}
+.icon-three{
+    margin-top: 20px;
+}
+/* banner */
+
+.b-img-one{
+    margin-top: 5.2rem;
+    position: absolute;
+    width: 1519px;
+    height: 377px;
+   
+    margin-left: -27rem;
+
+}
+.b-img-two{
+    position: absolute;
+    margin-top: 11.2rem;
+    margin-left: -27rem;
+}
+.b-img-three{
+    position: absolute;
+    margin-top: 5.2rem;
+    margin-left: 39rem;
+}
+.rectangle{
+    position: absolute;
+    margin-top: 5.2rem;
+    width: 1520px;
+    height: 378px;
+    background: rgba(0, 0, 0, 0.38);
+}
+.rectangle>h1{
+    font-style: normal;
+    margin-top: 7.5rem;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 50px;
+    color: white;
+    margin-left: 11rem;
+}
+.rectangle>p{
+    font-family: 'Roboto';
+    margin-top: -1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-left: 11rem;
+}
+.rectangle>button{
+    background-color: #C91053;
+    padding: 5px;
+    position: absolute;
+    width: 234.28px;
+    height: 57.6px;
+    border-radius: 10px;
+    border-color: #c91053;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 2rem;
+    margin-left: 25rem;
+    margin-top: 1rem;
+}
+.rectangle>span{
+    position: absolute;
+    display: flex;
+    padding-left: 36.5rem;
+    padding-top: 2%;
+}
+/* container one */
+.container-one{
+    position: absolute;
+    width: 1519px;
+    height: 683px;
+    margin-top: 28.8rem;
+}
+.text-section{
+    margin-left:11rem
+}
+.text-section>h2{
+    position: absolute;
+    margin-top: 35rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.bg-rectangle{
+    position: absolute;
+    width: 1164px;
+    height: 650px;
+    background: #C91053;
+    margin-top: 40rem;
+    margin-left: 12rem;
+}
+.img-one{
+    margin-top: 40rem;
+    margin-left: -16rem;
+}
+.img-two{
+    position: absolute;
+    margin-top: 45.5rem;
+    margin-left: -12rem;
+    width: 691px;
+    height: 482px;
+    border-radius: 4px;
+}
+.txt-discription{
+    position: absolute;
+    margin-left: 49rem;
+}
+.txt-discription>h2{
+    color: white;
+    margin-top: -9rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+.txt-discription>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.txt-discription-one>p{
+    position: absolute;
+    margin-top: 30rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #444444;
+}
+.img-three{
+    margin-top: 30rem;
+    margin-left: -11rem;
+}
+/* container-two */
+.container-two{
+    background: white;
+}
+.ct-img-one{
+    position: absolute;
+    margin-left: 11rem;
+    margin-top: -10rem;
+}
+.text>h2{
+    position: absolute;
+    color: white;
+    margin-top: -2rem;
+    margin-left: 39.5rem;
+}
+.text>p{
+    position: absolute;
+    color: white;
+}
